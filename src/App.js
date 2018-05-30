@@ -8,7 +8,7 @@ class App extends Component {
   render() {
     return (
       
-        <div style={{height: '758px', position: 'relative'}}>
+        <div style={{height: '710px', position: 'relative'}}>
             <Layout fixedHeader>
                 <Header className="header-grid" title={<span><span style={{ color: '/ddd' }}>Vishnu Prabhu </span><strong>Thirugnanasambandam</strong></span>}>
                     <Navigation>
