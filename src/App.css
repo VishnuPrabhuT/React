@@ -1,0 +1,79 @@
+.header-grid{
+  background: #614385;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #516395, #614385);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.mdl-layout__header .mdl-layout__drawer-button{
+  background-color: transparent !important;
+}
+
+.landing-grid{
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  text-align: center;
+  position: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.projects-grid{
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin-top: 2%;
+}
+
+.avatar-img{
+  height: 250px;
+  padding-top: 5em;
+  border-radius: 74%;
+}
+
+.banner-text{
+  background-color: black;
+  opacity: 0.8;
+  width: 55%;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.banner-text h1{
+  font-size: 43px;
+  margin-bottom: 0%;
+  padding-top: 1%;
+  font-weight: bold;
+  color: white;
+}
+
+.banner-text hr{
+  border-top: 3px dotted whitesmoke;
+  width: 75%;
+  margin: auto;
+}
+
+.banner-text p{
+  color: white;
+  font-size: 20px;
+  padding-bottom: 1%;
+}
+
+.social-links{
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin: auto;
+}
+
+.social-links i{
+  font-size: 5em;
+  color: white;
+}
+
+#leetcode-icon{
+  height: 73px;
+  width: 75px;
+  border-radius: 100%;
+}
