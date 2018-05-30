@@ -11,7 +11,6 @@ class Projects extends Component{
     }
      
     toggleTabs(activeTab){
-        console.log(activeTab);
         var tabContent = [<div className="projects-grid">
                             {/* TAB 1 */}
                             <Card shadow={5} style={{minWidth: '460', margin: 'auto'}}>
