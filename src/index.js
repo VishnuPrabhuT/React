@@ -9,7 +9,7 @@ import {BrowserRouter} from 'react-router-dom';
 
 /* basename="/React" */
 ReactDOM.render(
-<BrowserRouter> 
+<BrowserRouter basename="/React"> 
     <App />
 </BrowserRouter>
 , document.getElementById('root'));
