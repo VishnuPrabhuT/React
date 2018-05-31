@@ -6,7 +6,7 @@ class LandingPage extends Component{
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img className="avatar-img" src=".\images\snap-avatar.png" alt="avatar"/>
+                        <img className="avatar-img" src="./images/snap-avatar.png" alt="avatar"/>
                         <div className="banner-text">
                             <h1>Full Stack Web Developer</h1>
                             <hr/>

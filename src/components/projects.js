@@ -17,8 +17,8 @@ class Projects extends Component{
                             <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/unity-card.jpg) center / cover'}}>Unity Game Engine</CardTitle>
                             <CardText>Successfully developed a 3D game in Unity game engine with scripts coded in C#.</CardText>
                             <CardActions border>
-                                <Button colored>Github</Button>
-                                <Button colored>Download</Button>
+                                <a href="https://github.com/VishnuPrabhuT/RC-Game" rel="noopener noreferrer" target="_blank"><Button colored>Github</Button></a>
+                                <a href="https://github.com/VishnuPrabhuT/RC-Game/archive/master.zip" rel="noopener noreferrer" target="_blank"><Button colored>Download</Button></a>
                                 <a href="https://people.cs.clemson.edu/~vmhatre/Final/" rel="noopener noreferrer" target="_blank"><Button colored>Live Demo</Button></a>
                             </CardActions>
                             <CardMenu style={{color: '#fff'}}>

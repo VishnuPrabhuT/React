@@ -3,8 +3,8 @@ import React, {Component} from 'react';
 class Resume extends Component{
     render(){
         return(
-            <div>
-                <h1>Resume Page</h1>
+            <div style={{backgroundColor: 'grey', height:'100%'}}>
+                <embed src={require("../Vishnu.pdf")} width="100%" height="1200px" />
             </div>
         )
     }
