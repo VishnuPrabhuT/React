@@ -81,8 +81,34 @@
   margin: auto;
 }
 
+.resume-grid{
+  background: #2b5876;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+}
+
+
+
+.eduaction-grid p{
+  font-size: 18px;
+}
+
+.company-names{
+  margin-top: 7px !important;
+  text-align: center;
+}
+
+.experience-grid span{
+  color: white !important;
+}
+
+.mdl-grid{
+  padding:0px;
+}
+
 .mdl-list li{
-  padding: 5%;
+  padding: 2%;
   padding-left: 8%;
 }
 

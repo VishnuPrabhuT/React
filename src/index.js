@@ -11,7 +11,7 @@ import {BrowserRouter} from 'react-router-dom';
 ReactDOM.render(
 <BrowserRouter basename="/React"> 
     <App />
-</BrowserRouter>
+</BrowserRouter >
 , document.getElementById('root'));
 
 registerServiceWorker();
