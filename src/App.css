@@ -4,6 +4,22 @@
   background: linear-gradient(to bottom, #516395, #614385); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
+.header-grid i.fa{
+  font-size: 2.5em;
+  padding-top: 20px;
+}
+
+.mdl-layout__drawer.drawer-menu.is-visible{
+  background: #003558;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #4e4376, #2b5876); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: whitesmoke !important;
+}
+
+a.mdl-navigation__link{
+  color: whitesmoke !important;
+}
+
 .mdl-layout__header .mdl-layout__drawer-button{
   background-color: transparent !important;
 }
@@ -17,6 +33,8 @@
   height: 100%;
   width: 100%;
 }
+
+
 
 .projects-grid{
   display: flex;
@@ -88,7 +106,10 @@
   color: white;
 }
 
-
+.resume-right-col{
+  background: #27221F;
+  padding: 2em;
+}
 
 .eduaction-grid p{
   font-size: 18px;
