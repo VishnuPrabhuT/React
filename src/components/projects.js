@@ -56,7 +56,7 @@ class Projects extends Component{
                           <div className="projects-grid">
                           {/* TAB 3 */}
                           <Card shadow={5} style={{minWidth: '460', margin: 'auto'}}>
-                          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/unity-card.jpg) center / cover'}}>AADT Windows Application</CardTitle>
+                          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/vs-logo.png) center / cover'}}>AADT Windows Application</CardTitle>
                           <CardText>Developed robust Windows Application for data analysis using SVM libraries for the Department of Transportation (SC) and produces excel output files.</CardText>
                           <CardActions border>
                               <Button colored>Github</Button>
@@ -70,7 +70,7 @@ class Projects extends Component{
                           <div className="projects-grid">
                           {/* TAB 4 */}
                           <Card shadow={5} style={{minWidth: '460', margin: 'auto'}}>
-                          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/unity-card.jpg) center / cover'}}>Yelp Data Analysis</CardTitle>
+                          <CardTitle style={{color: '#fff', height: '176px', background: 'url(./images/RStudio-card.jpg) center / cover'}}>Yelp Data Analysis</CardTitle>
                           <CardText>Performed Data Analysis on Yelp dataset using EDA and supervised learning in RStudio.</CardText>
                           <CardActions style={{textAlign:'center'}} border>
                               <a href="https://github.com/VishnuPrabhuT/graduateStudy/raw/master/Yelp%20Poster.png" target="_blank" rel="noopener noreferrer">
@@ -84,7 +84,7 @@ class Projects extends Component{
                         </div>]
         return(tabContent[activeTab])
     }
-
+    
     render(){
         return(
             <div className="projects-tabs">
