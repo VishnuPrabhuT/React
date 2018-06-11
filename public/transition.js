@@ -272,7 +272,7 @@
             alpha: true
         });
         this.renderer.setPixelRatio(Math.min(2, window.devicePixelRatio || 1));
-        document.getElementsByClassName('page-content').appendChild(this.renderer.domElement);
+        document.getElementsByClassName('banner').appendChild(this.renderer.domElement);
 
         this.camera = new THREE.PerspectiveCamera(
             params.fov,
