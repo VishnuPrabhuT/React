@@ -8,7 +8,7 @@ class LandingPage extends Component {
                     <Cell col={12}>
                         <img
                             className="avatar-img"
-                            src="/images/snap-avatar.png"
+                            src="/React/images/snap-avatar.png"
                             alt="avatar"
                         />
                         <div id="banner" className="banner-text">

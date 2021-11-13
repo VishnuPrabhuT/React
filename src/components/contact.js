@@ -10,7 +10,7 @@ class Contact extends Component {
                         <img
                             className="contact-avatar-image"
                             style={{ height: "300px" }}
-                            src="/images/contact-avatar.png"
+                            src="/React/images/contact-avatar.png"
                             alt="contact-avatar"
                         />
                         <p>

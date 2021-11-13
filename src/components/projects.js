@@ -31,7 +31,7 @@ class Projects extends Component {
                             color: "#fff",
                             height: "176px",
                             background:
-                                "url(/images/unity-card.jpg) center / cover",
+                                "url(/React/images/unity-card.jpg) center / cover",
                         }}
                     >
                         Unity Game Engine
@@ -73,7 +73,7 @@ class Projects extends Component {
                             color: "#fff",
                             height: "176px",
                             background:
-                                "url(/images/C++-logo.png) center / cover",
+                                "url(/React/images/C++-logo.png) center / cover",
                         }}
                     >
                         2D Game with SDL and C++
@@ -118,7 +118,7 @@ class Projects extends Component {
                             color: "#fff",
                             height: "176px",
                             background:
-                                "url(/images/react-logo.png) center / cover",
+                                "url(/React/images/react-logo.png) center / cover",
                         }}
                     >
                         React Portfolio Project
@@ -163,7 +163,7 @@ class Projects extends Component {
                             color: "#fff",
                             height: "176px",
                             background:
-                                "url(/images/vs-logo.png) center / cover",
+                                "url(/React/images/vs-logo.png) center / cover",
                         }}
                     >
                         AADT Windows Application
@@ -190,7 +190,7 @@ class Projects extends Component {
                             color: "#fff",
                             height: "176px",
                             background:
-                                "url(/images/RStudio-card.jpg) center / cover",
+                                "url(/React/images/RStudio-card.jpg) center / cover",
                         }}
                     >
                         Yelp Data Analysis
