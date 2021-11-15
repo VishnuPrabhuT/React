@@ -1,204 +1,208 @@
 .header-grid {
-  background: #614385;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to bottom, #516395, #614385);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to bottom, #516395, #614385);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #614385;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #516395, #614385);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #516395, #614385);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .header-grid i.fa {
-  font-size: 2.5em;
-  padding-top: 20px;
+    font-size: 2.5em;
+    padding-top: 20px;
 }
 
 .mdl-layout__drawer.drawer-menu.is-visible {
-  background: #003558;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #4e4376, #2b5876);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: whitesmoke !important;
+    background: #003558;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4e4376, #2b5876);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: whitesmoke !important;
 }
 
 a.mdl-navigation__link {
-  color: whitesmoke !important;
+    color: whitesmoke !important;
 }
 
 .mdl-layout__header .mdl-layout__drawer-button {
-  background-color: transparent !important;
+    background-color: transparent !important;
 }
 
 .landing-grid {
-  background: #2b5876;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #4e4376, #2b5876);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-  position: fixed;
-  height: 100%;
-  width: 100%;
+    background: #2b5876;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4e4376, #2b5876);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    text-align: center;
+    position: fixed;
+    height: 100%;
+    width: 100%;
 }
 
 .projects-grid {
-  display: flex;
-  justify-content: space-between;
-  width: 75%;
-  margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    width: 75%;
+    margin-top: 2%;
 }
 
 .contact-body {
-  margin: auto;
-  background: grey;
-  position: fixed;
-  width: 100%;
-  height: 100%;
-  justify-content: center;
-  padding-top: 2em;
+    margin: auto;
+    background: grey;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    padding-top: 2em;
 }
 
 .contact-grid {
-  text-align: center;
-  justify-content: center;
-  width: 80%;
-  height: 550px;
-  background: white;
-  color: black;
-  border: 4px blueviolet solid;
-  margin-bottom: 20px;
+    text-align: center;
+    justify-content: center;
+    width: 80%;
+    height: 550px;
+    background: white;
+    color: black;
+    border: 4px blueviolet solid;
+    margin-bottom: 20px;
 }
 
 .contact-grid h2 {
-  font-family: 'Lobster', cursive;
+    font-family: "Lobster", cursive;
 }
 
 .contact-grid img {
-  padding-bottom: 5%;
+    padding-bottom: 5%;
 }
 
 .contact-grid p {
-  font-size: 15px;
-  font-family: 'Concert One', cursive;
-  font-weight: bold;
-  text-justify: inter-cluster;
+    font-size: 15px;
+    font-family: "Concert One", cursive;
+    font-weight: bold;
+    text-justify: inter-cluster;
 }
 
 .contact-grid hr {
-  border-top: 5px dotted brown;
-  width: 50%;
-  margin: auto;
+    border-top: 5px dotted brown;
+    width: 50%;
+    margin: auto;
 }
 
 .contact-grid i {
-  padding-right: 45px;
-  font-size: 150%;
+    padding-right: 45px;
+    font-size: 150%;
 }
 
 .contact-grid div.mdl-cell.mdl-cell--6-col:first-child {
-  border-right: 2px grey solid;
+    border-right: 2px grey solid;
 }
 
 .contact-details {
-  align-content: center;
-  justify-content: center;
-  margin: auto;
+    align-content: center;
+    justify-content: center;
+    margin: auto;
 }
 
 .resume-grid {
-  background: #2b5876;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to top, #4e4376, #2b5876);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  color: white;
+    background: #2b5876;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #4e4376, #2b5876);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #4e4376, #2b5876);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
 }
 
 .resume-right-col {
-  background: #27221F;
-  padding: 2em;
+    background: #27221f;
+    padding: 2em;
 }
 
 .eduaction-grid p {
-  font-size: 18px;
+    font-size: 18px;
 }
 
 .company-names {
-  margin-top: 7px !important;
-  text-align: center;
+    margin-top: 7px !important;
+    text-align: center;
 }
 
 .experience-grid span {
-  color: white !important;
+    color: white !important;
 }
 
 .mdl-grid {
-  padding: 0px;
+    padding: 0px;
 }
 
 .mdl-list li {
-  padding: 2%;
-  padding-left: 3%;
+    padding: 2%;
+    padding-left: 3%;
 }
 
 .avatar-img {
-  height: 250px;
-  padding-top: 5em;
-  border-radius: 74%;
+    height: 250px;
+    padding-top: 5em;
+    border-radius: 74%;
 }
 
 canvas {
-  background-image: radial-gradient(#666, #333);
-  width: 100% !important;
-  height: 100% !important;
+    background-image: radial-gradient(#666, #333);
+    width: 100% !important;
+    height: 100% !important;
 }
 
 .banner-text {
-  background-color: black;
-  opacity: 0.8;
-  width: 55%;
-  margin: auto;
-  border-radius: 10px;
-  text-align: center;
+    background-color: black;
+    opacity: 0.8;
+    width: 55%;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
 }
 
 .banner-text h1 {
-  font-size: 43px;
-  margin-bottom: 0%;
-  padding-top: 1%;
-  font-weight: bold;
-  color: white;
+    font-size: 43px;
+    margin-bottom: 0%;
+    padding-top: 1%;
+    font-weight: bold;
+    color: white;
 }
 
 .banner-text hr {
-  border-top: 3px dotted whitesmoke;
-  width: 75%;
-  margin: auto;
+    border-top: 3px dotted whitesmoke;
+    width: 75%;
+    margin: auto;
 }
 
 .banner-text p {
-  color: white;
-  font-size: 20px;
-  padding-bottom: 1%;
+    color: white;
+    font-size: 20px;
+    padding-bottom: 1%;
 }
 
 .social-links {
-  display: flex;
-  justify-content: space-between;
-  width: 50%;
-  margin: auto;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: auto;
 }
 
 .social-links i {
-  font-size: 5em;
-  color: white;
+    font-size: 5em;
+    color: white;
 }
 
 #leetcode-icon {
-  height: 73px;
-  width: 75px;
-  border-radius: 100%;
+    height: 73px;
+    width: 75px;
+    border-radius: 100%;
+}
+
+.logo {
+    border-radius: 10px;
 }

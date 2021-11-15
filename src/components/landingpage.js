@@ -6,18 +6,25 @@ class LandingPage extends Component {
             <div>
                 <Grid className="landing-grid">
                     <Cell col={12}>
-                        <img
+                        {/* <img
                             className="avatar-img"
                             src="/React/images/snap-avatar.png"
                             alt="avatar"
-                        />
+                        /> */}
+                        <div className="logo">
+                            <video
+                                autoPlay
+                                loop
+                                width="500px"
+                                height="250px"
+                                src="/React/images/my-logo.mp4"
+                                type="video/mp4"
+                            ></video>
+                        </div>
                         <div id="banner" className="banner-text">
-                            <h1>Full Stack Web Developer</h1>
+                            <h1>Software Engineer</h1>
                             <hr />
-                            <i
-                                className="fa fa-linkedin"
-                                aria-hidden="true"
-                            ></i>
+
                             <p>
                                 {" "}
                                 C# | Python | JavaScript | React | ASP.NET Core
