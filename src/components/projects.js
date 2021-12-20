@@ -156,6 +156,135 @@ class Projects extends Component {
                 </Card>
             </div>,
             <div className="projects-grid">
+                {/* TAB 2 */}
+                <Card shadow={5} style={{ minWidth: "460", margin: "auto" }}>
+                    <CardTitle
+                        style={{
+                            color: "#fff",
+                            height: "176px",
+                            background:
+                                "url(/React/images/react-logo.png) center / cover",
+                        }}
+                    >
+                        React Portfolio Project
+                    </CardTitle>
+                    <CardText>
+                        Made a Portfolio from scratch using React and React mdl
+                        for UI.
+                    </CardText>
+                    <CardActions border>
+                        <a
+                            href="https://github.com/VishnuPrabhuT/React"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Github</Button>
+                        </a>
+                        <a
+                            href="https://github.com/VishnuPrabhuT/React/archive/master.zip"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Download</Button>
+                        </a>
+                        <a
+                            href="https://vishnuprabhut.github.io/React/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Live Demo</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+            </div>,
+            <div className="projects-grid">
+                {/* TAB 2 */}
+                <Card shadow={5} style={{ minWidth: "460", margin: "auto" }}>
+                    <CardTitle
+                        style={{
+                            color: "#fff",
+                            height: "176px",
+                            background:
+                                "url(/React/images/react-logo.png) center / cover",
+                        }}
+                    >
+                        React Portfolio Project
+                    </CardTitle>
+                    <CardText>React Project</CardText>
+                    <CardActions border>
+                        <a
+                            href="https://github.com/VishnuPrabhuT/duit"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Github</Button>
+                        </a>
+                        <a
+                            href="https://github.com/VishnuPrabhuT/duit"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Download</Button>
+                        </a>
+                        <a
+                            href="https://duitapp.herokuapp.com/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Live Demo</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+            </div>,
+            <div className="projects-grid">
+                {/* TAB 2 */}
+                <Card shadow={5} style={{ minWidth: "460", margin: "auto" }}>
+                    <CardTitle
+                        style={{
+                            color: "#fff",
+                            height: "176px",
+                            background:
+                                "url(/React/images/react-logo.png) center / cover",
+                        }}
+                    >
+                        React Portfolio Project
+                    </CardTitle>
+                    <CardText>Pet Adoption Site</CardText>
+                    <CardActions border>
+                        <a
+                            href="https://github.com/VishnuPrabhuT"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Github</Button>
+                        </a>
+                        <a
+                            href="https://github.com/VishnuPrabhuT"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Download</Button>
+                        </a>
+                        <a
+                            href="https://m1assignment.netlify.app/"
+                            rel="noopener noreferrer"
+                            target="_blank"
+                        >
+                            <Button colored>Live Demo</Button>
+                        </a>
+                    </CardActions>
+                    <CardMenu style={{ color: "#fff" }}>
+                        <IconButton name="share" />
+                    </CardMenu>
+                </Card>
+            </div>,
+            <div className="projects-grid">
                 {/* TAB 3 */}
                 <Card shadow={5} style={{ minWidth: "460", margin: "auto" }}>
                     <CardTitle
